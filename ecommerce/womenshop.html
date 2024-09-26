@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WomensWear</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body{
+            background-color: black;
+        }
+        #main{
+            border: 2px solid white;
+            padding: 5px;
+            display: flex;
+        }
+        #heading{
+            width: 100%;
+            height:60px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            color: white;
+        }
+        .one1{
+            width: 50%;
+            height:500px;
+        }
+        .one2{
+            width:38%;
+            height:500px;
+            color: white;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 50px;
+
+        }
+        #womens1{
+            margin-left: 200px;
+            margin-top: 50px;
+        }
+        .two2{
+            width: 50%;
+            height:500px;
+        }
+        #womens2{
+            margin-left: 200px;
+            margin-top: 50px;
+        }
+        .three3{
+            width: 50%;
+            height:500px;
+        }
+        #womens3{
+            margin-left: 200px;
+            margin-top: 50px;
+        }
+        .four4{
+            width: 50%;
+            height:500px;
+        }
+        #womens4{
+            margin-left: 200px;
+            margin-top: 50px;
+        }
+        .five5{
+            width: 50%;
+            height:500px;
+        }
+        #womens5{
+            margin-left: 200px;
+            margin-top: 50px;
+        }
+        #footer{
+            color: black;
+            background-color: rgb(8, 75, 8);
+        }
+        #contact{
+            font-size: x-large;
+            color: black;
+        }
+        .button{
+            background-color: darkgreen;
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="heading">
+            <h1>WOMENS WEAR</h1>   
+    </div>
+    <hr>
+    <div id="main">
+    <div class="one1">
+        <img id=womens1 src="womenswear1.jpeg" alt="womenswear1" width="300px" height="400px">
+    </div>
+    <div class="one2">
+            <h1 id="one3"><font color="grey"><b>KLotHY</b></font></h1>
+            <h3>Green colour CATS printed women's T-Shirt</h3>
+            <h3><font color="grey"><b>Rs.999</b></font></h3>
+            <hr>
+            <h3><font color="grey">Colour:</font></h3>
+            <h4><i class="fa-solid fa-circle" style="color: #2b5f2c;"></i></h4>
+            <hr>
+            <h3><font color="grey">Size:</font></h3>
+            <h4><i class="fa-solid fa-shirt" style="color: #f1f2f3;"></i>: Free size</h4>
+            <hr><br>
+            <button class="button" onclick="addToWishlist('womenswear1.jpeg', 'Green colour CATS printed women/s T - Shirt', 'Rs.999', 'Free size')">Add to Wishlist</button><br><br>
+            <button class="button" onclick="addToCart('womenswear1.jpeg', 'Green colour CATS printed women/s T - Shirt', 'Rs.999', 'Free size')">Add to Cart</button>
+        
+    </div>
+    </div>
+    <hr>
+    <div id="main">
+    <div class="two2">
+        <img id=womens2 src="womenswear2.jpeg" alt="womenswear2" width="300px" height="400px">
+    </div>
+    <div class="one2">
+        <h1 id="one3"><font color="grey"><b>KLotHY</b></font></h1>
+        <h3>Pink colour 'NANA' printed women's T-Shirt</h3>
+        <h3><font color="grey"><b>Rs.999</b></font></h3>
+        <hr>
+        <h3><font color="grey">Colour:</font></h3>
+        <h4><i class="fa-solid fa-circle" style="color: #e64cc4;"></i></h4>
+        <hr>
+        <h3><font color="grey">Size:</font></h3>
+        <h4><i class="fa-solid fa-shirt" style="color: #f1f2f3;"></i>: Free size</h4>
+        <hr><br>
+        <button class="button" onclick="addToWishlist('womenswear2.jpeg', 'Pink colour NANA printed women/s T - Shirt', 'Rs.999', 'Free size')">Add to Wishlist</button><br><br>
+        <button class="button" onclick="addToCart('womenswear2.jpeg', 'Pink colour NANA printed women/s T - Shirt', 'Rs.999', 'Free size')">Add to Cart</button>
+
+    </div>
+    </div>
+    <hr>
+    <div id="main">
+    <div class="three3">
+        <img id=womens3 src="womenswear3.jpeg" alt="womenswear3" width="300px" height="400px">
+    </div>
+    <div class="one2">
+        <h1 id="one3"><font color="grey"><b>KLotHY</b></font></h1>
+        <h3>Beige colour CATS printed women's T - Shirt</h3>
+        <h3><font color="grey"><b>Rs.999</b></font></h3>
+        <hr>
+        <h3><font color="grey">Colour:</font></h3>
+        <h4><i class="fa-solid fa-circle" style="color: #e8e8e8;"></i></h4>
+        <hr>        
+        <h3><font color="grey">Size:</font></h3>
+        <h4><i class="fa-solid fa-shirt" style="color: #f1f2f3;"></i>: Free size</h4>
+        <hr><br>
+        <button class="button" onclick="addToWishlist('womenswear3.jpeg', 'Beige colour CATS printed women/s T - Shirt', 'Rs.999', 'Free size')">Add to Wishlist</button><br><br>
+        <button class="button" onclick="addToCart('womenswear3.jpeg', 'Beige colour CATS printed women/s T - Shirt', 'Rs.999', 'Free size')">Add to Cart</button>
+        
+    </div>
+    </div>
+    <hr>
+    <div id="main">
+    <div class="four4">
+        <img id=womens4 src="womenswear4.jpeg" alt="womenswear4" width="300px" height="400px">
+    </div>
+    <div class="one2">
+        <h1 id="one3"><font color="grey"><b>KLotHY</b></font></h1>
+        <h3>Blue colour DUCK printed women's T - Shirt</h3>
+        <h3><font color="grey"><b>Rs.999</b></font></h3>
+        <hr>
+        <h3><font color="grey">Colour:</font></h3>
+        <h4><i class="fa-solid fa-circle" style="color: #24066a;"></i></h4>
+        <hr>
+        <h3><font color="grey">Size:</font></h3>
+        <h4><i class="fa-solid fa-shirt" style="color: #f1f2f3;"></i>: Free size</h4>
+        <hr><br>
+        <button class="button" onclick="addToWishlist('womenswear4.jpeg', 'Blue colour DUCK printed women/s T - Shirt', 'Rs.999', 'Free size')">Add to Wishlist</button><br><br>
+        <button class="button" onclick="addToCart('womenswear4.jpeg', 'Blue colour DUCK printed women/s T - Shirt', 'Rs.999', 'Free size')">Add to Cart</button>
+    </div>
+    </div>
+    <hr>
+    <div id="main">
+    <div class="five5">
+        <img id=womens5 src="womenswear5.jpeg" alt="womenswear5" width="300px" height="400px">
+    </div>
+    <div class="one2">
+    <h1 id="one3"><font color="grey"><b>KLotHY</b></font></h1>
+        <h3>Red colour dolphin printed women's T-Shirt</h3>
+        <h3><font color="grey"><b>Rs.999</b></font></h3>
+        <hr>
+        <h3><font color="grey">Colour:</font></h3>
+        <h4><i class="fa-solid fa-circle" style="color: #5b061f;"></i></h4>
+        <hr>
+        <h3><font color="grey">Size:</font></h3>
+        <h4><i class="fa-solid fa-shirt" style="color: #f1f2f3;"></i>: Free size</h4>
+        <hr><br>
+        <button class="button" onclick="addToWishlist('womenswear5.jpeg', 'Red colour DOLPHIN printed women/s T - Shirt', 'Rs.999', 'Free size')">Add to Wishlist</button><br><br>
+        <button class="button" onclick="addToCart('womenswear5.jpeg', 'Red colour DOLPHIN printed women/s T - Shirt', 'Rs.999', 'Free size')">Add to Cart</button>
+        </div>
+    </div>
+    <hr>
+    <section id="footer">
+        <br><center id="contact">Contact us</center><br><br>
+        <center><a id="insta" alt="insta" href="https://www.instagram.com/klahari_/"><i class="fa-brands fa-instagram" style="color: #010713;"></i></a><br><br>
+        <a id="snap" alt="snapchat" href="https://www.snapchat.com/explore/klahari_18"><i class="fa-brands fa-snapchat"  style="color: #010713;"></i></a>
+        <p><i class="fa-regular fa-envelope"></i>&nbsp;: klothy@gmail.com</p>
+        <p><i class="fa-solid fa-phone" style="color: #050b15;"></i>&nbsp;: +91 98493446666</p></center><br>
+      </section>
+      <script>
+        function addToWishlist(imageUrl, name, price, description) {
+            let wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
+    
+            let item = {
+                imageUrl: imageUrl,
+                name: name,
+                price: price,
+                description: description
+            };
+    
+            wishlist.push(item);
+            localStorage.setItem('wishlist', JSON.stringify(wishlist));
+    
+            alert('Product added to wishlist!');
+        }
+    
+        function addToCart(imageUrl, name, price, description) {
+            let cart = JSON.parse(localStorage.getItem('cart')) || [];
+    
+            let item = {
+                imageUrl: imageUrl,
+                name: name,
+                price: price,
+                description: description
+            };
+    
+            cart.push(item);
+            localStorage.setItem('cart', JSON.stringify(cart));
+    
+            alert('Product added to cart!');
+        }
+    </script>
+    
+</body>
+</html>

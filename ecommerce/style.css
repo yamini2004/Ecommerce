@@ -1,0 +1,127 @@
+body{
+   background-color: black;
+}
+#name{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 80px;
+    font-size: xx-large;
+}
+a{
+    text-decoration:none;
+}
+#one{
+    margin-left: 820px;
+}
+#search{
+    margin-left:50px;
+    margin-top:0px;
+}
+.header{
+    height:60px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.top1{
+    height:25px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+#display1{
+    display: flex;
+}
+.display2{
+    color: white;
+    height:500px;
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    margin-left: 75px;
+    margin-top: 75px;
+}
+#display3{
+    color: black;
+    height:500px;
+    width: 45%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    text-align: center;
+    background-image: url("display.jpg");
+    background-size: cover;
+}
+#display3 h3{
+    margin-top:180px;
+    font-size: xx-large;
+}
+.top2{
+    height:25px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    font-size: xx-large;
+}
+.div2{
+    height:200px;
+    width:200px;
+    border-color: white;
+    border-style: double;
+}
+.div3{
+    height:200px;
+    width:200px;
+    border-color: white;
+    border-style: double;
+}
+.main1{
+    display: flex;
+    justify-content: space-around;
+}
+.div4{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+.div5{
+    height:200px;
+    width:200px;
+    border-color: white;
+    border-style: double;
+}
+.div6{
+    height:200px;
+    width:200px;
+    border-color: white;
+    border-style: double;
+}
+.main2{
+    display: flex;
+    justify-content: space-around;
+}
+.div7{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+#footer{
+    color: black;
+    background-color: rgb(8, 75, 8);
+}
+#contact{
+    font-size: x-large;
+    color: black;
+}
+#search {
+    width: 400px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 18px;
+  }
+  #search::placeholder {
+    color: #999; 
+  }
+  

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LoginPage</title>
+    <style>
+        /* CSS styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: black;
+            margin: 0;
+            padding: 0;
+        }
+
+        .main {
+            width: 400px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        label {
+            color: #333;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        span {
+            font-size: 14px;
+        }
+
+        a {
+            text-decoration: none;
+            color: purple;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button a {
+            color: rgb(162, 159, 159);
+        }
+
+        button:hover {
+            background-color: rgb(162, 159, 159); 
+        }
+    </style>
+</head>
+<body>
+
+<form action="account.php" method="post">
+    <div class="main">
+        <h1>Login</h1><br><br>
+        <label id="user1"><b>Username:</b></label><br><br>
+        <input type="text" id="username" name="username" placeholder="Enter Username:" size="45"><br>
+        <span id="message1" style="color: red;"></span><br>
+        <label id="pass1"><b>Password:</b></label><br><br>
+        <input type="password" id="password" name="password" placeholder="Enter password:" size="45" required><br>
+        <span id="message2" style="color:red"></span><br>&nbsp;&nbsp;&nbsp;
+        <a id="register" href="http://localhost/WT%20Project/register.php"><font color="purple">New user? register here!</font></a><br>
+        <br>
+        <center><button type="submit" onclick=""> </button></center>
+    </div>
+</form>
+<button><a href="index.html">BackToHome</a></button>
+
+</body>
+</html>
